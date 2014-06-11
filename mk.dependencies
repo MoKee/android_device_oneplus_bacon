@@ -6,5 +6,9 @@
   {
     "repository": "android_vendor_oppo_msm8974-common",
     "target_path": "vendor/oppo/msm8974-common"
+  },
+  {
+    "repository": "android_vendor_oneplus_bacon",
+    "target_path": "vendor/oneplus/bacon"
   }
 ]
