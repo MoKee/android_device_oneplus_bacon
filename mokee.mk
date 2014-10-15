@@ -33,7 +33,7 @@ $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 PRODUCT_NAME := mk_bacon
 PRODUCT_DEVICE := bacon
-PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MANUFACTURER := ONEPLUS
 PRODUCT_MODEL := A0001
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
