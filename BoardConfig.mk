@@ -43,6 +43,9 @@ TARGET_RECOVERY_FSTAB := device/oneplus/bacon/rootdir/etc/fstab.bacon
 
 TARGET_OTA_ASSERT_DEVICE := bacon,A0001
 
+# Use SaberMod Toolchains
+SABERMOD_TOOLCHAIN_ENABLED := true
+
 TARGET_INIT_VENDOR_LIB := libinit_bacon
 
 TARGET_WCNSS_MAC_PREFIX := e8bba8
