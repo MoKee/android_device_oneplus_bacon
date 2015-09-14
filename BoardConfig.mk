@@ -17,6 +17,8 @@
 # Inherit from MSM8974 common
 -include device/oppo/msm8974-common/BoardConfigCommon.mk
 
+MK_TOOLCHAIN_VARIANT := uber
+
 # Kernel
 TARGET_KERNEL_CONFIG := mokee_bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
