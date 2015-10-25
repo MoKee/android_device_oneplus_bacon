@@ -63,7 +63,7 @@ endif
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := bacon,A0001
+TARGET_OTA_ASSERT_DEVICE := bacon,A0001,ONE
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
