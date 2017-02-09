@@ -757,6 +757,7 @@
     </path>
 
     <path name="voice-handset">
+        <ctl name="RX1 Digital Volume" value="93" />
         <path name="handset" />
     </path>
 
