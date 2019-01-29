@@ -18,7 +18,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += \
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2016-09-01
+    ro.mk.build.vendor_security_patch=2016-09-01
 
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
